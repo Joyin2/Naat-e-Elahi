@@ -7,7 +7,31 @@ let gif = document.getElementById("gif")
 
 let songs = [
     {
-        songName: "rah-e-ishq", filePath:"song/1.mp3", coverPath: "covers/1.jpg"
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/1.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/2.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/3.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/4.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/5.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/6.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/7.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/8.jpg"
+    },
+    {
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/9.jpg"
     }
 ]
 
@@ -33,7 +57,7 @@ masterPlay.addEventListener("click", ()=>{
 //Listen to events
 audioElement.addEventListener("timeupdate", ()=>{
     //update seekbar
-    let progress = parseInt((audioElement.currentTime/audioElement.duration)* 100)
+     progress = parseInt((audioElement.currentTime/audioElement.duration) * 100)
 
     myProgressBar.value=progress
     //update seekbar
