@@ -7,32 +7,32 @@ let gif = document.getElementById("gif")
 
 let songs = [
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/1.jpg"
+        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/1.jpeg"
     },
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/2.jpg"
+        songName: "rah-e-ishq", filePath:"songs/2.mp3", coverPath: "covers/2.jpeg"
     },
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/3.jpg"
+        songName: "rah-e-ishq", filePath:"songs/3.mp3", coverPath: "covers/3.jpeg"
     },
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/4.jpg"
+        songName: "rah-e-ishq", filePath:"songs/4.mp3", coverPath: "covers/4.jpeg"
     },
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/5.jpg"
+        songName: "rah-e-ishq", filePath:"songs/5.mp3", coverPath: "covers/5.jpeg"
     },
     {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/6.jpg"
-    },
-    {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/7.jpg"
-    },
-    {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/8.jpg"
-    },
-    {
-        songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/9.jpg"
+        songName: "rah-e-ishq", filePath:"songs/6.mp3", coverPath: "covers/6.jpeg"
     }
+    // {
+    //     songName: "rah-e-ishq", filePath:"songs/7.mp3", coverPath: "covers/7.jpeg"
+    // },
+    // {
+    //     songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/8.jpeg"
+    // },
+    // {
+    //     songName: "rah-e-ishq", filePath:"songs/1.mp3", coverPath: "covers/9.jpeg"
+    // }
 ]
 
 // audioElement.play()
